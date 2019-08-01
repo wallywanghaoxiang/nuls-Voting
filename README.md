@@ -1,10 +1,10 @@
 # nuls-Voting
 use nuls blockchain for  Voting
 
-# Functional design
+## Functional design
 The core business of the module is to vote and get Voting statistics for candidates
 
-# Core functions
+## Core functions
 
  1. Bind the address to a unique candidates when someone announce to be one of Electoral candidates
  
@@ -14,7 +14,7 @@ The core business of the module is to vote and get Voting statistics for candida
  
  4. When election ends, get Voting statistics for candidates.
  
-# Secondary functions
+## Secondary functions
 
  1. View the candidates lists.
  
