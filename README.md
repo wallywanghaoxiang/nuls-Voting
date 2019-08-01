@@ -12,6 +12,12 @@ The core business of the module is to vote and get Voting statistics for candida
  
  3 When election begins, voter send their ballots to candidates.
  
- 4 When election ends, get Voting statistics for every candidate
+ 4 When election ends, get Voting statistics for candidates.
+ 
+# Secondary functions
+
+ 1.View the candidates lists.
+ 
+ 2.View the Voting statistics for candidates lists when election ends.
  
 
