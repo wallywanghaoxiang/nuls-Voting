@@ -1,5 +1,5 @@
 # nuls-Voting
-use nuls blockchain for  Voting
+Using nuls blockchain for  Voting
 
 ## Functional design
 The core business of the module is to vote and get Voting statistics for candidates
