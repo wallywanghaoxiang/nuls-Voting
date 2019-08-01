@@ -20,4 +20,7 @@ The core business of the module is to vote and get Voting statistics for candida
  
  2. View the Voting statistics for candidates lists when election ends.
  
+## General design
+
+ 
 
