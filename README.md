@@ -21,6 +21,18 @@ The core business of the module is to vote and get Voting statistics for candida
  2. View the Voting statistics for candidates lists when election ends.
  
 ## General design
-
+  1. function list
+     1.1 register and login
+     
+     2.1 public square
+     3.1 all votes past comming and in the furch
+     3.2 personal center(ID card identification)
+     
+     4.1 my attend(我参加的选举)votes and my host(我举办的选举)votes.     
+     4.2 create new votes 
+     4.3 votes management  (start votes stop votes) in 
+     4.4 vote      
+     5.1 acccecs and get tickes for vote
+     5.1 vote result
  
 
