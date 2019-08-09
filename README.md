@@ -33,6 +33,6 @@ The core business of the module is to vote and get Voting statistics for candida
      4.3 votes management  (start votes stop votes) in 
      4.4 vote      
      5.1 acccecs and get tickes for vote
-     5.1 vote result
+     5.1 vote result.
  
 
