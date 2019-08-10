@@ -106,6 +106,8 @@ The core business of the module is to vote and get Voting statistics for candida
     
       701. api all the user get the result for this vote event
      
-
  
-
+设计原型：
+    https://teymyp.axshare.com
+    密码：wanghaoxiang
+    
