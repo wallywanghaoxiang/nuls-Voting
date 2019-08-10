@@ -22,41 +22,90 @@ The core business of the module is to vote and get Voting statistics for candida
  
 ## General design
   1. roles
+  
      admin：
+     
      vote hosts：
+     
         create and manage the vote events
+        
      candidates：
+     
          the people who have achievement to be vote
+         
      attends：
+     
         vote for the candidates
+        
+        
   2. sinario
      
      vote host regist and login create a new vote event( title,description,Electoral nominations start time ,end time,vote start time and so on)
+     
      during Electoral nominations time
+     
      candidates  regist and login upload his achievement
+     
      when vote starts
+     
      attends  regist and login get free tickes ,vote for candidates
+     
      when vote ehds
+     
      vote host get Voting statistics,and all uses can see the result
      
-     1 register and login
+  3. functions and api
+  
+    public functions
+    
+      register and login
+      
+      001.  api 手机短信认证
+      
+      002.  api 注册
+      
+      003.  api 登录
+       
+       
+    public square show all vote events
+    
+      101. api 取得所有选举事件
      
-     2.1 public square
+    all votes past comming and in the furch
+    
+      102. api 按时间检索选举事件
      
-     3.1 all votes past comming and in the furch
+    personal center(ID card identification)
+    
+      201. api 实名认证
      
-     3.2 personal center(ID card identification)
+     my attend(我参加的选举)votes and my host(我举办的选举)votes.  
      
-     4.1 my attend(我参加的选举)votes and my host(我举办的选举)votes.  
+      202. api 按照我参加的和我举办的 取得选举
      
-     4.2 create new votes 
+     create new votes 
      
-     4.3 votes management  (start votes stop votes) in 
+      301. api 新建选举
      
-     4.4 vote 
+     to be candidates
      
-     5.1 acccecs and get tickes for vote
+      401. api 参加候选人报名资料上传(或者填写推荐人/推荐码)
+      
+     vote 
+      
+      501. api 投票开始候选人成果公示
+      
+      502. api voteing 选民投票
+        
      
-     5.1 vote result.
+    acccecs and get tickes for vote
+      
+      601. api vote host  get tickes for vote
+    
+    vote result
+    
+      701. api all the user get the result for this vote event
+     
+
  
 
