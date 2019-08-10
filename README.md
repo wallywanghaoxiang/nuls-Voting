@@ -111,3 +111,5 @@ The core business of the module is to vote and get Voting statistics for candida
     https://teymyp.axshare.com
     密码：wanghaoxiang
     
+apidoc(todo): https://segmentfault.com/a/1190000017145798
+    
