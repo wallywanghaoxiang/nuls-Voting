@@ -100,7 +100,7 @@ The core business of the module is to vote and get Voting statistics for candida
      
     acccecs and get tickes for vote
       
-      601. api vote host  get tickes for vote
+      601. api vote host get the Voting statistics
     
     vote result
     
