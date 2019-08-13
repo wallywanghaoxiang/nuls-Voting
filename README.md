@@ -1,24 +1,30 @@
-# nuls-Voting
-Using nuls blockchain for  Voting
+# 基于nuls的投票系统 nuls-viting
 
-## Functional design
-The core business of the module is to vote and get Voting statistics for candidates
+## 核心功能
+模块实现的核心业务是在nuls上建立投票选举事件，应征候选人，并让选举人对候选人进行投票，最后公布投票选举结果
 
 ## Core functions
 
- 1. Bind the address to a unique candidates when someone announce to be one of Electoral candidates
+ 1. 为每个投票选举事件建立独立的链
  
- 2. Distribute ballots to voter
+ 2. 为每个应征的候选人指定一个唯一不重复的投票地址
  
- 3. When election begins, voter send their ballots to candidates.
+ 3. 给每个投票人发放选票(某个数量的token)
  
- 4. When election ends, get Voting statistics for candidates.
+ 4. 在应征候选人阶段，候选人可以上传自己的介绍和作品链接
  
-## Secondary functions
+ 5. 当投票开始后，投票人可以把手里的选票投给喜欢的候选人
+ 
+ 6. 当投票结束后，投票选举结果向所有用户公示
 
- 1. View the candidates lists.
  
- 2. View the Voting statistics for candidates lists when election ends.
+## 次要功能点
+
+ 1. 查看投票选举事件列表
+ 
+ 2. 查看候选人列表
+ 
+ 3. 投票开始后查看每个候选人的得票情况
  
 ## General design
   1. roles
@@ -107,9 +113,10 @@ The core business of the module is to vote and get Voting statistics for candida
       701. api all the user get the result for this vote event
      
  
-设计原型：
+前端设计原型：
     https://teymyp.axshare.com
     密码：wanghaoxiang
-    
+
+与后端交互api设计：
 apidoc(todo): https://segmentfault.com/a/1190000017145798
     
