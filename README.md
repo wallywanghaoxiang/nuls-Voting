@@ -137,4 +137,4 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
 3. lnmp环境一键搭建，用mysql数据库存储不上链的业务数据
 
-4. 安装php的restfullapi管理框架https://github.com/gouguoyin/phprap.git，开发调试api
+4. 安装php的restfullapi管理框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
