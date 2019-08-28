@@ -135,6 +135,11 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
          1. NRC-20 发币 (增加 防篡改加密hash字段)
 
 
-3. lnmp环境一键搭建，用mysql数据库存储不上链的业务数据
+3. lnmp环境搭建，用mysql数据库存储不上链的业务数据
 
 4. 安装php的restfullapi管理框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
+
+   api调试页面: http://wanghx.eicp.top/phalapi/public/
+   
+   h5调试页面 http://wanghx.eicp.top/h5
+   
