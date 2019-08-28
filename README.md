@@ -121,4 +121,20 @@
 
 与后端交互api设计：
 apidoc(todo): https://segmentfault.com/a/1190000017145798
-    
+
+## 开发/测试环境搭建步骤：
+
+1.restfulapi环境：https://github.com/nuls-io/nuls-v2/
+
+2.智能合约开发：https://docs.nuls.io/NULS2.0/smartContractManual.html#_1-introduction
+
+  将开发好的智能合约发布取得 code 用1的智能合约发布接口进行发布
+  
+  需要开发的智能合约列表
+  
+    1. NRC-20 发币 (增加 防篡改加密hash字段)
+
+
+3. lnmp环境一键搭建，用mysql数据库存储不上链的业务数据
+
+4. 安装php的restfullapi管理框架，开发调试api
