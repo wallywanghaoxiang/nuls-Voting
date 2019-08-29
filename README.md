@@ -124,7 +124,7 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
 ## 开发/测试环境搭建步骤：
 
-1. restfulapi环境：https://github.com/nuls-io/nuls-v2/
+1. restfulapi环境：https://github.com/nuls-io/nuls-v2/blob/release/module/nuls-api/documents/nuls-api_RESTFUL.md
 
 2. 智能合约开发：https://docs.nuls.io/NULS2.0/smartContractManual.html#_1-introduction
 
