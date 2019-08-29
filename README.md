@@ -137,8 +137,9 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
 3. lnmp环境搭建，用mysql数据库存储不上链的业务数据
 
-4. 安装php的restfullapi管理框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
-    改用线上api管理平台：https://www.eolinker.com/#/invite?inviteCode=9pUUmi
+4. 安装php的restfullapi框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
+    
+    api接口管理：https://www.eolinker.com/#/invite?inviteCode=9pUUmi
 
    api调试页面: http://wanghx.eicp.top/phalapi/public/
    
