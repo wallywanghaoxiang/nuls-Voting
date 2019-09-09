@@ -19,7 +19,6 @@
  
  注：投票选举活动发起人空投给每个选举人选票将会产生的费用，为了控制整体费用，可以加入智能合约进行选举人资格筛选。
 
- 
 ## 次要功能点
 
  1. 查看投票选举事件列表
@@ -146,13 +145,23 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
    h5调试页面 http://wanghx.eicp.top/h5
    
 5. 合约调试步骤
+
    下载nuls钱包，新建测试账户，联系技术群客服充值测试币
+
    安装postman，导入接口设置文件
+
    在postman上连接测试网进行测试，http://39.98.226.51:18004
+
        1. 根据私钥导入测试账户 http://39.98.226.51:18004/api/account/import/pri
+
        2. 查看余额 http://39.98.226.51:18004/api/accountledger/balance/{acccount}
+
        3. 发布智能合约的code  http://39.98.226.51:18004/api/contract/create
+
        4. 批量新建 候选人账户  api/account    prefix：candi
-       5. 批量新建 投票人账户  api/account    prefix: voter  
+
+       5. 批量新建 投票人账户  api/account    prefix: voter
+  
        6. 投票转账  /api/contract/tokentransfer
+
        7. 统计候选人选票账户结果
