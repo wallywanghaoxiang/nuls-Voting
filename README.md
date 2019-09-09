@@ -161,7 +161,9 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
        4. 批量新建 候选人账户  api/account    prefix：candi
 
        5. 批量新建 投票人账户  api/account    prefix: voter
+       
+       6. 空投选票 /api/contract/tokentransfer
   
-       6. 投票转账  /api/contract/tokentransfer
+       7. 投票转账  /api/contract/tokentransfer
 
-       7. 统计候选人选票账户结果
+       8. 统计候选人选票账户结果
