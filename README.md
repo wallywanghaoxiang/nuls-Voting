@@ -119,7 +119,7 @@
     密码：wanghaoxiang
 
 与后端交互api设计：
-apidoc(todo): https://segmentfault.com/a/1190000017145798
+apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动生成，mysql数据库建表语句在model类里
 
 ## 开发/测试环境搭建步骤：
 
@@ -138,7 +138,15 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
 4. 安装php的restfullapi框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
 
-   已搭建api服务器地址: http://nulsvoting.wanghx.top/phalapi/public/docs.php   接口文档自动生成，mysql数据库建表语句在model类里
+
+
+   已搭建api服务器地址: http://nulsvoting.wanghx.top/phalapi/public/docs.php
+   
+   接口文档自动生成，mysql数据库建表语句在model类里
+   
+   上传的代码是src里面的自己开发的代码，放入 phaapi的对应目录可以运行处结果
+   
+   
    
    h5调试页面 http://wanghx.eicp.top/h5
    
