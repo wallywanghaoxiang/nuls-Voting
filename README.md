@@ -150,18 +150,18 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
    在postman上连接测试网进行测试，http://beta.api.nuls.io
 
-       1. 根据私钥导入测试账户 http://39.98.226.51:18004/api/account/import/pri
+       1. 根据私钥导入测试账户account/import/pri
 
-       2. 查看余额 http://39.98.226.51:18004/api/accountledger/balance/{acccount}
+       2. 查看余额 accountledger/balance/{acccount}
 
-       3. 发布智能合约的code  http://39.98.226.51:18004/api/contract/create
+       3. 发布智能合约的code  contract/create
 
-       4. 批量新建 候选人账户  api/account    prefix：candi
+       4. 批量新建 候选人账户  account    prefix：candi
 
-       5. 批量新建 投票人账户  api/account    prefix: voter
+       5. 批量新建 投票人账户  account    prefix: voter
        
-       6. 空投选票 /api/contract/tokentransfer
+       6. 空投选票 contract/tokentransfer
   
-       7. 投票转账  /api/contract/tokentransfer
+       7. 投票转账  contract/tokentransfer
 
        8. 统计候选人选票账户结果
