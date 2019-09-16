@@ -148,7 +148,7 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
    安装postman，导入接口设置文件
 
-   在postman上连接测试网进行测试，http://beta.api.nuls.io
+   用到的nulsapi接口在postman上连接测试网进行测试，http://beta.api.nuls.io
 
        1. 根据私钥导入测试账户account/import/pri
 
