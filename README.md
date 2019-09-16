@@ -148,7 +148,8 @@ apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动
    
    
    
-   h5调试页面 http://wanghx.eicp.top/h5
+   前端h5示例页面 http://nulsvoting.wanghx.top/h5/
+   代码在H5目录下
    
 5. 合约调试步骤
 
