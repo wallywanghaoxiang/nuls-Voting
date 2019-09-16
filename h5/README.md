@@ -5,4 +5,7 @@
 # H5 的开发环境
 安装 HbuilderX，新建 uni-app项目。发布为h5项目
 
+# uni-app 源码
+uniappcode.zip  是 uni-app源码，用 HBUILDERX 开发
+
 
