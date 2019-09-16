@@ -134,13 +134,11 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
          1. NRC-20 发币 (增加 防篡改加密hash字段)
 
 
-3. lnmp环境搭建，用mysql数据库存储不上链的业务数据
+3. 中心化服务器 nginx(apache,iis),mysql5.5以上 ，php 5.5以上，存储不上链的数据
 
 4. 安装php的restfullapi框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
-    
-    api接口管理：https://www.eolinker.com/#/invite?inviteCode=9pUUmi
 
-   api调试页面: http://wanghx.eicp.top/phalapi/public/
+   已搭建api服务器地址: http://nulsvoting.wanghx.top/phalapi/public/docs.php   接口文档自动生成，mysql数据库建表语句在model类里
    
    h5调试页面 http://wanghx.eicp.top/h5
    
@@ -150,7 +148,7 @@ apidoc(todo): https://segmentfault.com/a/1190000017145798
 
    安装postman，导入接口设置文件
 
-   在postman上连接测试网进行测试，http://39.98.226.51:18004
+   在postman上连接测试网进行测试，http://beta.api.nuls.io
 
        1. 根据私钥导入测试账户 http://39.98.226.51:18004/api/account/import/pri
 
