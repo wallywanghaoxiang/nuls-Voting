@@ -8,4 +8,6 @@
 # uni-app 源码
 uniappcode.zip  是 uni-app源码，用 HBUILDERX 开发
 
+示例网址 http://nulsvoting.wanghx.top/h5/  用手机访问或者  谷歌 的手机浏览方式
+
 
