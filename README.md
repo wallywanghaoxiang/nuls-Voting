@@ -123,21 +123,23 @@ apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动
 
 ## 开发/测试环境搭建步骤：
 
-1. restfulapi环境：https://github.com/nuls-io/nuls-v2/blob/release/module/nuls-api/documents/nuls-api_RESTFUL.md
+1. 智能合约开发：https://docs.nuls.io/zh/Docs/s_manual.html
 
-2. 智能合约开发：https://docs.nuls.io/NULS2.0/smartContractManual.html#_1-introduction
-
-     votingNRC20智能合约代码在 java目录下
+     选举事件智能合约 votingNRC20 代码在 java目录下
      
      生成的hex code 通过nuls-api发布智能合约接口发布
+     
+     nuls-api 文档 https://docs.nuls.io/zh/Docs/s_manual.html#_6-智能合约主要的api
+     
+      这里用到 NULS-API_RESTFUL 接口
 
-3. 中心化服务器 nginx(apache,iis),mysql5.5以上 ，php 5.5以上，存储不上链的数据
+2. 中心化服务器 nginx(apache,iis),mysql5.5以上 ，php 5.5以上，存储不上链的数据
 
-4. 安装php的restfullapi框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
+3. 安装php的restfullapi框架phalapi2.0，开发调试api: http://docs.phalapi.net/#/v2.0/
 
 
 
-   已搭建api服务器地址: http://nulsvoting.wanghx.top/phalapi/public/docs.php
+   已搭建中心化服务器api服务器地址: http://nulsvoting.wanghx.top/phalapi/public/docs.php
    
    接口文档自动生成，mysql数据库建表语句在model类里
    
@@ -148,7 +150,7 @@ apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动
    前端h5示例页面 http://nulsvoting.wanghx.top/h5/
    代码在H5目录下
    
-5. 合约调试步骤
+4. 合约调试步骤
 
    下载nuls钱包，新建测试账户，联系技术群客服充值测试币
 
