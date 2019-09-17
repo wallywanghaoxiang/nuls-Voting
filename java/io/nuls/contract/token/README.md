@@ -12,9 +12,9 @@
 
 ## 增加了
 
- 1. votingTransfer方法
+  1. votingTransfer方法
  
- 2.votingTransferFrom 方法
+  2.votingTransferFrom 方法
  
     这两个方法比原先方法多传入 
     
