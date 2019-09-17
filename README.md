@@ -127,12 +127,9 @@ apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动
 
 2. 智能合约开发：https://docs.nuls.io/NULS2.0/smartContractManual.html#_1-introduction
 
-  将开发好的智能合约发布取得 code 用1的智能合约发布接口进行发布
-  
-  需要开发的智能合约列表
-  
-         1. NRC-20 发币 (增加 防篡改加密hash字段)
-
+     votingNRC20智能合约代码在 java目录下
+     
+     生成的hex code 通过nuls-api发布智能合约接口发布
 
 3. 中心化服务器 nginx(apache,iis),mysql5.5以上 ，php 5.5以上，存储不上链的数据
 
