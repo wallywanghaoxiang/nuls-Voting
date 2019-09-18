@@ -143,7 +143,7 @@ apidoc: http://nulsvoting.wanghx.top/phalapi/public/docs.php  接口文档自动
    
    接口文档自动生成，mysql数据库建表语句在model类里
    
-   上传的代码是src里面的自己开发的代码，放入 phaapi的对应目录可以运行处结果
+   上传的代码是src里面的自己开发的代码，放入 phaapi的对应目录可以运行得到结果
    
    
    
